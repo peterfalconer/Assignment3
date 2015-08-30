@@ -1,0 +1,138 @@
+
+html {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+header {
+	background: url("../../Assets/images/testimonial_bg.jpg");
+	color: white;
+	height:200px;
+}
+
+.center-div {
+	text-align:center;
+}
+
+#yellow-box {
+	width:15%;
+	background-color: #f9e42e;
+	color: black;
+	margin-left: 42.5%;
+	margin-top: 50px;
+}
+
+#benefits {
+	background-color: #f0efef;	
+}
+
+#benefits-detail {
+	position: relative;
+	left:20%;
+	width:40%;
+}
+
+#benefits-hdr {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+#benefits-list {
+	font-style: 300;
+	font-size: 13px;
+}
+
+#list-items {
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+#blue-button-bg {
+	position: relative;
+	float left;
+	top : 20%;
+	color: white;
+	background-color: #033048;
+	height: 66px;
+	width: 20%;
+	position: relative;
+	left: 40%;
+	border-radius: 10px;
+}
+
+#blue-button-fg {
+	position:relative;
+	left 30%;
+	top : 30%;
+	text-align: center;
+}
+
+#yellow-block-bg {
+	background-color: #f9e42e;
+	height: 110px;
+}
+
+#testimonial {
+	font-size: 18px;
+	color: white;
+	background: url("../../Assets/images/testimonial_bg.jpg");
+}
+
+#quote {
+	width: 40%;
+	text-align: center;
+	position: relative;
+	left: 30%;
+	padding-top: 10px;
+}
+
+.appname {
+	font-size: 24px;
+}
+
+#appname-bottom {
+	color: #f9e42e;
+	width: 10%;
+	position: relative;
+	left: 47%;
+}
+
+#tw-icon {	
+	left: 46%;
+}
+
+#fb-icon {
+	left: 48%;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+
+.extra-bold {
+	font-weight: 800;
+}
+
+.semi-bold {
+	font-weight: 600;
+}
+
+footer {
+	height: 190px;
+}
+
+.socialmedia-icon {
+	position:relative;
+	float: left;
+}
+
+#copyright {
+	font-size: 9px;
+	position: relative;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 5px;
+}
