@@ -11,11 +11,59 @@ body {
 header {
 	background: url("../../Assets/images/testimonial_bg.jpg");
 	color: white;
-	height:200px;
 }
 
-.center-div {
-	text-align:center;
+#blog-section section {
+	margin-left: 3rem;
+}
+
+#with-nav {
+	color: white;
+	background-color: black;
+	display: inline-block;
+	width: 100%;
+}
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+nav ul {
+	margin-left: 20%;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10%;
+}
+
+nav ul li:first-child {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+nav ul li:nth-child(2) {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav ul li:last-child {
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 0%;
+}
+
+.appname {
+	font-size: 28px;
+}
+
+#appname-top {
+	color: white;
 }
 
 #yellow-box {
@@ -24,31 +72,6 @@ header {
 	color: black;
 	margin-left: 42.5%;
 	margin-top: 50px;
-}
-
-#benefits {
-	background-color: #f0efef;	
-}
-
-#benefits-detail {
-	position: relative;
-	left:20%;
-	width:40%;
-}
-
-#benefits-hdr {
-	font-size: 20px;
-	margin-top: 0;
-}
-
-#benefits-list {
-	font-style: 300;
-	font-size: 13px;
-}
-
-#list-items {
-	margin-bottom: 0;
-	padding-bottom: 10px;
 }
 
 #blue-button-bg {
@@ -76,22 +99,74 @@ header {
 	height: 110px;
 }
 
-#testimonial {
-	font-size: 18px;
-	color: white;
-	background: url("../../Assets/images/testimonial_bg.jpg");
-}
-
-#quote {
+#blog-section section {
 	width: 40%;
-	text-align: center;
-	position: relative;
-	left: 30%;
-	padding-top: 10px;
+	height: 4rem;
 }
 
-.appname {
-	font-size: 24px;
+#blog-section section p {
+	font-weight: bold;
+	padding-right: 10%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+.blog {
+	width: 50%;
+	height: 300px;
+	display: inline-block;	
+}
+
+.blog img {
+	width: 100%;
+	height: 300px;
+}
+
+aside {
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	height: 300px;
+	text-overflow: ellipsis;
+	overflow: auto;
+	font-size: 14px;
+}
+
+aside p:first-child {
+	margin-top: 0px;
+	color: blue;
+}
+
+#top-article p:first-letter {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.other-articles p:first-of-type:first-letter {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.social-media {
+	text-align: center;
+}
+
+#tw-icon {	
+	margin-left: 45%;
+}
+
+#fb-icon {
+	margin-left: 4%
+}
+.extra-bold {
+	font-weight: 800;
+}
+
+.semi-bold {
+	font-weight: 600;
 }
 
 #appname-bottom {
@@ -101,32 +176,9 @@ header {
 	left: 47%;
 }
 
-#tw-icon {	
-	left: 46%;
-}
-
-#fb-icon {
-	left: 48%;
-	padding-top: 5px;
-	padding-left: 10px;
-}
-
-
-.extra-bold {
-	font-weight: 800;
-}
-
-.semi-bold {
-	font-weight: 600;
-}
-
 footer {
-	height: 190px;
-}
-
-.socialmedia-icon {
-	position:relative;
-	float: left;
+	height: 360px;
+	background-color: black;
 }
 
 #copyright {
@@ -135,4 +187,5 @@ footer {
 	text-align: center;
 	padding-top: 100px;
 	padding-bottom: 5px;
+	color: white;
 }
